@@ -7,7 +7,7 @@ import org.lujunfa.studytest.rabbitmq.util.ConnectUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 
-/**
+/**mq学习
 *@Author lujunfa
 *confirm 普通模式
 **/

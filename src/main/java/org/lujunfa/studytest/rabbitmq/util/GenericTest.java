@@ -1,7 +1,7 @@
 package org.lujunfa.studytest.rabbitmq.util;
 
 /**
- * @Author:lujunfa
+ * @Author:lujunfa good good study , day day up
  * @Desccription   熟悉泛型类方法和泛型方法的区别，以及通配符的作用
  * @Date:created in 9:06 2018/10/24
  **/

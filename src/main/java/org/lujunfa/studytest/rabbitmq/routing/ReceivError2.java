@@ -24,6 +24,7 @@ public class ReceivError2 {
 		final Channel channel = connection.createChannel();
 		// 申明队列
 		channel.queueDeclare(QUEUE_NAME, false, false, false, null);
+		//可以绑定多个多个规则
 		// 绑定到指定路由队列
 		channel.queueBind(QUEUE_NAME, EXCHANG_NAME, "error");
 		// 绑定到指定路由队列

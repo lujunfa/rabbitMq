@@ -10,6 +10,7 @@ import com.rabbitmq.client.Connection;
 /**mq学习
 *@Author lujunfa
 *confirm 普通模式
+ *@Description 这种模式没有用到exchange交换机，而是直接使用的队列点对点模式交互
 **/
 public class Send1 {
 			private final static String  QUEUE_NAME = "queue_confirm1";

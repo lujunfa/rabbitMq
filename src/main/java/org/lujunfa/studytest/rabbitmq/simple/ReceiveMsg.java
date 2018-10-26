@@ -23,8 +23,8 @@ public class ReceiveMsg {
 
 	public static void main(String[] args) throws ShutdownSignalException, ConsumerCancelledException, IOException, InterruptedException {
 
-			//oldRabbitMqAPI();
-			newRabbitMqAPI();
+			oldRabbitMqAPI();
+			//newRabbitMqAPI();
 	}
 	//旧api接受消息
 	public static void oldRabbitMqAPI() throws IOException, ShutdownSignalException, ConsumerCancelledException, InterruptedException {

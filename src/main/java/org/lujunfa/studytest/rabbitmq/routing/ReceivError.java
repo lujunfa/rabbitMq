@@ -10,6 +10,8 @@ import com.rabbitmq.client.DefaultConsumer;
 
 /**
  * @Author lujunfa
+ * @Description  首先声明管道，然后创建相应的队列，该队列根据指定的routkey规则绑定到exchange分发器上，消息会按照消息携带的routkey完全匹配到按相同
+ * 规则绑定的队列里，订阅了该队列的消费者就可以消费该消息。
  **/
 public class ReceivError {
 	private static final String EXCHANG_NAME = "route_exchange";

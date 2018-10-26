@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 **/
 public class SpringSender {
 		public static void main(String[] args) throws InterruptedException {
-			AbstractApplicationContext context =new ClassPathXmlApplicationContext("classpath:rabbitmq.xml");
+			AbstractApplicationContext context =new ClassPathXmlApplicationContext("classpath:/resource/rabbitmq.xml");
 			RabbitTemplate rabbitTemplate = context.getBean(RabbitTemplate.class);
 			//发送消息
 			rabbitTemplate.convertAndSend("hello word");

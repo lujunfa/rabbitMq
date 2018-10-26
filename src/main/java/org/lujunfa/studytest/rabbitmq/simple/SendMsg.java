@@ -8,7 +8,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 
 /**
- * 发送的simple队列，simple队列是一一对应的，而且我们实际开发中，生产者发消息是毫不费力的，而消费者一般是要跟业务相关的，处理画的时间比较多
+ * 发送的simple队列，simple队列是一一对应的，而且我们实际开发中，生产者发消息是毫不费力的，而消费者一般是要跟业务相关的，处理花的时间比较多
  * 
  * @Author lujunfa
  **/

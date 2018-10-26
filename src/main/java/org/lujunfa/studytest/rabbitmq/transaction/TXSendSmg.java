@@ -39,6 +39,7 @@ public class TXSendSmg {
 		System.out.println("send:" + msg);
 		}catch (Exception e) {
 			// TODO: handle exception
+			//事物回滚
 			channel.txRollback();
 			System.out.println("send error ，rollback!");
 		}finally {

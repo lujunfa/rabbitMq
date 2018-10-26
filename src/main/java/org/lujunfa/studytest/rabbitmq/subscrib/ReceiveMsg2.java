@@ -41,6 +41,7 @@ public class ReceiveMsg2 {
 					e.printStackTrace();
 				} finally {
 					System.out.println("done");
+					//确认接收到
 					channel.basicAck(envelope.getDeliveryTag(), false);
 				}
 
@@ -49,6 +50,7 @@ public class ReceiveMsg2 {
 		};
 
 		boolean autoACK = false;
+		//启动本地消费
 		channel.basicConsume(QUEUE_NAME, autoACK, consumer);
 	}
 }

@@ -12,7 +12,7 @@ import java.util.Map;
 @RunWith(value = SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:spring_mq.xml"})
 
-public class TestQueue{
+public class TestQueue {
     @Autowired
     MQProducer mqProducer;
 
